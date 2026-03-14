@@ -1,7 +1,5 @@
 # CodeGraphX
 
-This repository now includes a **Next.js + TypeScript + Tailwind + shadcn-style** structure and integrated UI components to reduce a rigid, “boxy” look.
-
 ## Project structure defaults
 
 - Components: `components/ui`
