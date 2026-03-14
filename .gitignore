@@ -1,0 +1,91 @@
+# ── Python ──────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+ENV/
+
+# Distribution / packaging
+*.manifest
+*.spec
+pip-log.txt
+pip-delete-this-directory.txt
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# ── Secrets / environment ────────────────────────────────────────────────
+.env
+.env.*
+*.env
+secrets.json
+secrets.yaml
+secrets.yml
+credentials.json
+*.pem
+*.key
+*.p12
+*.pfx
+
+# ── Data & model artifacts ───────────────────────────────────────────────
+workspace/
+data/graphs/*.json
+data/graphs/*.csv
+data/model_outputs/*.pt
+data/model_outputs/*.json
+data/model_outputs/*.png
+# keep the directory structure
+!data/graphs/.gitkeep
+!data/model_outputs/.gitkeep
+
+# ── Node / React ─────────────────────────────────────────────────────────
+node_modules/
+dashboard/node_modules/
+dashboard/build/
+dashboard/.env
+dashboard/.env.*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.eslintcache
+
+# ── IDE / OS ─────────────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ── Docker ───────────────────────────────────────────────────────────────
+*.log
+docker-compose.override.yml
+
+# ── ML / Jupyter ──────────────────────────────────────────────────────────
+*.ipynb_checkpoints/
+.ipynb_checkpoints
+*.pt
+*.pth
+*.pkl
+*.h5
