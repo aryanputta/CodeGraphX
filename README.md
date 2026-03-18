@@ -20,7 +20,7 @@
 
 ## What Is This?
 
-CodeGraphX ingests Python repositories, builds directed dependency graphs, and runs a **Graph Convolutional Network** to classify every function, class, and module by defect probability. It then simulates how failures cascade through the dependency graph — so you know exactly which nodes to harden before they take everything else down.
+CodeGraphX ingests Python repositories, builds directed dependency graphs, and runs a **Graph Convolutional Network** to classify every function, class, and module by defect probability. It then simulates how failures cascade through the dependency graph so you know exactly which nodes to harden before they take everything else down.
 
 **Designed for:** 5G microservices · aerospace control pipelines · cloud edge infrastructure
 
